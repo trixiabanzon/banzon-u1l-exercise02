@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    background-color: #7F95D1;
+    font-family: Poppins;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .navbar {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0s;
+    overflow: hidden;
+  }
+
+  li {
+    align-content: center;
+    display: inline-block;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #FFC0BE;
+  }
+
+  .picture {
+    width: 100%;
+  }
+
+  .project-title {
+    padding-top: 5%;
+  }
+
+  .flex-container-projects {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FF82A9;
+    height: 75vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .project-box-1 {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-style: transparent;
+    margin: 5%;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: column;
+  }
+  
+  .project1 {
+    height: 35vh;
+    width: 20vw;
+  }
+
+  .project-box-2 {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-style: transparent;
+    margin: 5%;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .project2 {
+    height: 35vh;
+    width: 20vw;
+  }
+
+  .project-box-3 {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-style: transparent;
+    margin: 5%;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .project3 {
+    height: 35vh;
+    width: 20vw;
+  }
+
+  .skill-auto-title {
+    padding-top: 5%;
+  }
+
+  .flex-container-skills-autobiography {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FF82A9;
+    height: 50vh;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .skills {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-style: transparent;
+    margin: 5%;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .autobiography {
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-style: transparent;
+    margin: 5%;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .flex-container-footer {
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    border-style: transparent;
+    height: 20vh;
+    flex-direction: row;
+  }
+
+  .footer-logo {
+    height: 20vh;
+    width: 20vw;
+  }
+
+  .footer-content {
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    border-style: transparent;
+    height: 15vh;
+    width: 20%;
+    flex-wrap: wrap;
+  }
+
+  .back-to-top {
+    color: black;
+    text-decoration: none;
+  }
+
+  .back-to-top:hover {
+    background-color: #FFC0BE;
+  }
+
+  hr {
+    border-color: #FFC0BE;
+  }
